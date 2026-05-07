@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Advanced Form Elements</title>
+</head>
+<body>
+
+    <form action="">
+        <label for="university">Select University:</label>
+        <br>
+        <select name="university" id="university" size="4" multiple>
+            <option value="periyar">Periyar university</option>
+            <option value="madras">University of madras</option>
+            <option value="bharathiar">Bharathiar university</option>
+            <option value="bharathidasan">Bharathidasan university</option>
+            <option value="vels">Vels university</option>
+        </select>
+        
+        <br><br>
+
+        <label for="comments">Message:</label>
+        <br>
+        <textarea name="comments" id="comments" rows="4" cols="50">HTML form we will see today</textarea>
+        
+        <br><br>
+
+        <label for="browser-choice">Choose a browser from the list:</label>
+        <br>
+        <input list="browsers" name="browser" id="browser-choice">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Brave">
+            <option value="Safari">
+        </datalist>
+
+        <br><br>
+        <button type="submit">Done</button>
+    </form>
+
+</body>
+</html>

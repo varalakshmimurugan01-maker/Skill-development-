@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Formatting</title>
+</head>
+<body>
+    <h2>Computer Science</h2>
+    <p>
+        Computer science is the study of computers, <mark>algorithmic processes</mark>, and computational systems.
+        <br><u>It involves designing software</u>, developing hardware, and creating artificial intelligence.
+        <br>Key subfields include computer architecture, <em>software development</em>, and data structures.
+    </p>
+</body>
+</html>

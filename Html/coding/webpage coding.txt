@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Project</title>
+    <style>
+        /* Table Styling from your previous task */
+        table, th, td {
+            border: 1px double violet;
+            border-radius: 5px;
+            width: 80%;
+            margin: 20px 0;
+            padding: 10px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <center>
+            <img src="your-image-path.png" alt="Logo" width="100">
+            <br><br>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Select</a>
+                <a href="#">Contact</a>
+                <a href="#">Option</a>
+            </nav>
+        </center>
+    </header>
+
+    <hr>
+
+    <section>
+        <center>
+            <h1>Digital Outcomes</h1>
+            <p>
+                <em>Focuses on digital engineering, AI-based solutions, and customer engagement.</em>
+            </p>
+        </center>
+        
+        <h3>Computer Science</h3>
+        <p>
+            Computer science is the study of computers, <mark>algorithmic processes</mark>, and computational systems.
+            <br><u>It involves designing software</u> and creating artificial intelligence.
+        </p>
+    </section>
+
+    <hr>
+
+    <h3>Registration & Feedback</h3>
+    <form action="https://www.flipkart.com/search" method="get">
+        
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="q">
+        <br><br>
+
+        <label for="uni">Select University:</label><br>
+        <select name="university" id="uni" size="4" multiple>
+            <option value="periyar">Periyar University</option>
+            <option value="madras">University of Madras</option>
+            <option value="bharathiar">Bharathiar University</option>
+            <option value="vels">Vels University</option>
+        </select>
+        <br><br>
+
+        <label for="msg">Your Message:</label><br>
+        <textarea name="comments" id="msg" rows="4" cols="50">HTML form practice today!</textarea>
+        <br><br>
+
+        <label for="browser">Choose a Browser:</label><br>
+        <input list="browsers" name="browser_choice" id="browser">
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Edge">
+            <option value="Brave">
+            <option value="Safari">
+        </datalist>
+        <br><br>
+
+        <button type="submit">Submit Data</button>
+    </form>
+
+</body>
+</html>

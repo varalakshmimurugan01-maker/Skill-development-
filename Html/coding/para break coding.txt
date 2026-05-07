@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p>
+        First serialized in 1969, <br>
+        the manga's chapters were collected in 45 tankōbon volumes. <br>
+        The story revolves around an earless robotic cat named Doraemon, <br>
+        who travels back in time from the 22nd century to assist a boy named Nobita Nobi.
+    </p>
+
+</body>
+</html>

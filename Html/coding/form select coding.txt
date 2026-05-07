@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>University Search Form</title>
+</head>
+<body>
+
+    <form action="https://www.flipkart.com/search" method="get">
+        <label for="search">Search Keyword</label>
+        <br>
+        <input type="text" id="search" name="q">
+        <br>
+
+        <label for="lname">Lastname</label>
+        <br>
+        <input type="text" id="lname" name="lastname">
+        <br><br>
+
+        <label for="uni">Select University:</label>
+        <br>
+        <select name="university" id="uni" size="4" multiple>
+            <option value="periyar">Periyar university</option>
+            <option value="madras">University of madras</option>
+            <option value="bharathiar">Bharathiar university</option>
+            <option value="bharathidasan">Bharathidasan university</option>
+            <option value="vels">Vels university</option>
+        </select>
+        
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

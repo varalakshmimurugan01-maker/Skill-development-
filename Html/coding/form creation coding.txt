@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Task</title>
+</head>
+<body>
+
+    <b>UG Details</b>
+    
+    <form action="">
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name" name="name">
+        <br>
+
+        <label for="rollno">Rollno</label>
+        <br>
+        <input type="text" id="rollno" name="rollno">
+        <br>
+
+        <label for="degree">Degree</label>
+        <br>
+        <input type="text" id="degree" name="degree">
+        <br><br>
+
+        <label for="college">Select College:</label>
+        <br>
+        <select name="college" id="college" size="3" multiple>
+            <option value="patrician">Patrician College of Arts and Science</option>
+            <option value="vels">Vels College</option>
+            <option value="new_college">New College</option>
+        </select>
+        
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

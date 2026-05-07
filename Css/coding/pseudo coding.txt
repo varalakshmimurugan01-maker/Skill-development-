@@ -1,0 +1,20 @@
+div {
+    background-color: violet;
+    color: blueviolet;
+    text-align: center;
+    padding: 25px;
+}
+
+div:hover {
+    background-color: pink;
+    color: brown;
+}
+
+input:focus {
+    background-color: greenyellow;
+    color: green;
+}
+
+p:active {
+    background-color: red;
+}

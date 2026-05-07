@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div > section {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <p>CSS combinator</p>
+    <p>Going to explain the concepts</p>
+    
+    <div>
+        <p>CSS is very attractive</p>
+        <p>The webpage was looking so nice</p>
+        <section>
+            <p>paragraph not used as a child</p>
+        </section>
+    </div>
+
+    <p>The webpage will got a perfect styling</p>
+    <p>The execution of the coding will run properly</p>
+
+</body>
+</html>

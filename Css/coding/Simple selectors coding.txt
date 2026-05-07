@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Tag Selector */
+        p {
+            color: brown;
+        }
+
+        /* ID Selector (uses #) */
+        #change {
+            color: violet;
+        }
+
+        /* Class Selector (uses .) */
+        .css {
+            color: rgb(238, 175, 200);
+        }
+    </style>
+</head>
+<body>
+
+    <p>CSS Started</p>
+    <p id="change">Introduction to CSS</p>
+    <p class="css">It is mainly used to write the style for our webpage</p>
+
+</body>
+</html>

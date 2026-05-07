@@ -1,0 +1,16 @@
+div {
+    /* The Magic Property */
+    box-sizing: border-box; 
+    
+    background-color: violet;
+    border: 10px solid blueviolet;
+    margin: 50px;
+    padding: 60px;
+    width: 300px;
+    height: 300px;
+    
+    /* Adding some text styling so you can see the padding */
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+.f, span, img {
+    height: 250px;
+    width: 250px;
+    display: inline;
+    margin: 40px;
+}

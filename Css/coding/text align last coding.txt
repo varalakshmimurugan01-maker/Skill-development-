@@ -1,0 +1,4 @@
+.a { text-align-last: center; }
+.b { text-align-last: left; }
+.c { text-align-last: right; }
+.d { text-align-last: justify; }

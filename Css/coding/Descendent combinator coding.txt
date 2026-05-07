@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* This selects p tags inside divs AND all h1 tags */
+        div p,h1
+        {
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <p>Combinator Selector</p>
+    <div>
+        <h1>Descendent combinator</h1>
+        <p>we seen about the types of combinators</p>
+        <p>This topic is descendent combinator</p>
+    </div>
+    <p>Need to understand property</p>
+    <p>Practice clearly</p>
+</body>
+</html>

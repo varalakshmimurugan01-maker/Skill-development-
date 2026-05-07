@@ -1,0 +1,6 @@
+div {
+    background-color: violet;
+    border: 10px solid blueviolet;
+    width: 300px; /* You need a width for auto-margin to work! */
+    margin: 100px auto 20px; 
+}

@@ -1,0 +1,32 @@
+body{
+    font-family:serif;
+    margin:0;
+    background: lightcyan;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background: lightblue;
+    padding:15px;
+    box-shadow: lightblue;
+}
+
+img{
+    width: 1260px;
+    height: 380px;
+}
+
+i{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+.card{
+    background: rgb(226, 247, 247);
+    width:200px;
+}

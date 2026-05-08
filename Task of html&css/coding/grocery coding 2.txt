@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="C:\Users\Admin\task css.css">
+</head>
+
+<body>
+    <header>
+    <div class="logo">Fresh<span>Go</span></div>
+
+    <div class="search-box">
+    <input type="text" placeholder="What are you looking for today?">
+    <button>Search</button>
+    </div>
+
+    <nav>
+        <a href=""><button class="btn">Home</button></a>
+        <a href=""><button class="btn">Shop by category</button></a>
+        <a href="file:///C:/Users/Admin/about.html"><button class="btn">About us</button></a>
+    </nav>
+    </header>
+        <img src="c:\Users\Admin\Downloads\grocery store.webp" alt="" height="380" width="1260">
+        <br><br>
+        <center><p>Explore Categories</p></center>
+    <br>
+        <center>
+        <div class="container">
+    <div class="card">
+    <img src="c:\Users\Admin\Downloads\Category_0007_Group_1_copy_4.webp">
+    <a href="file:///C:/Users/Admin/masala.html"><b>Masala & Spices</b></a>
+    </div>

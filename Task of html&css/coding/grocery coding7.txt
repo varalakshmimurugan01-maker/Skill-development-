@@ -1,0 +1,29 @@
+<html lang="en">
+<body>
+    <style>
+        .order-btn {
+            /* ... (styles truncated in view) */
+        }
+
+        .order-btn:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Oils & Ghee</h2>
+    <div class="container">
+        <div class="card">
+            <div class="discount">29% Off</div>
+            <img src="c:\Users\Admin\Downloads\CO-1_d864f329-f198-4e44-949f-99a80dfdba07.webp" alt="">
+            <div class="product-name"> Coconut oil</div>
+            <select>
+                <option>1ltr</option>
+                <option>2ltr</option>
+            </select>
+            <div class="price"> ₹450</div>
+            <button class="add-btn">+</button>
+            <a href="file:///C:/Users/Admin/order.html"><button>Order Now</button></a>
+        </div>

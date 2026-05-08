@@ -1,0 +1,30 @@
+<html lang="en">
+<body>
+    <style>
+
+        .order-btn {
+            background-color: green;
+            color: white;
+            padding: 12px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        .order-btn:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Pooja needs</h2>
+    <div class="container">
+        <div class="card">
+            <div class="discount">29% Off</div>
+            <img src="c:\Users\Admin\Downloads\Products_6_de50b017-63ec-4cea-aefb-d3e051a3c2a4.webp" alt="">
+            <div class="product-name">Button rose</div>
+            <select>
+                <option>1kg</option>

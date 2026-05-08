@@ -1,0 +1,31 @@
+<html lang="en">
+<body>
+</head>
+
+<body>
+
+    <h2>Ready to cook & eat</h2>
+    <div class="container">
+        <div class="card">
+            <div class="discount">29% Off</div>
+            <img src="c:\Users\Admin\Downloads\shopping.webp" alt="">
+            <div class="product-name"> Rice vermicelli</div>
+            <select>
+                <option>200gm</option>
+            </select>
+            <div class="price"> ₹40</div>
+            <button class="add-btn">+</button>
+            <a href="file:///C:/Users/Admin/order.html"><button>Order Now</button></a>
+        </div>
+
+        <div class="card">
+            <div class="discount">29% Off</div>
+            <img src="c:\Users\Admin\Downloads\shopping (1).webp">
+            <div class="product-name">Garlic pickle</div>
+            <select>
+                <option>300gm</option>
+            </select>
+            <div class="price"> ₹100</div>
+            <button class="add-btn">+</button>
+            <a href="file:///C:/Users/Admin/order.html"><button>Order Now</button></a>
+        </div>

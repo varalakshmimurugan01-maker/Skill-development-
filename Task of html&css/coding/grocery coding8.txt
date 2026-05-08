@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 460px;
+            width: 450px;
+        }
+        body{
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <center> <img src="c:\Users\Admin\Downloads\order-confirm-order-illustration-svg-download-png-5902811.webp"></center>
+    <br><br>
+    <center><em>"You're all set! Your order has been received. Thank you for shopping with us!" </em></center>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html lang="en">
+</head>
+<body>
+    <h2>Masala & spices</h2>
+
+    <div class="container">
+
+    <div class="card">
+        <div class="discount">29% Off</div>
+        <img src="c:\Users\Admin\Downloads\pirandai-thokku-online-BG-Naidu-Sweets_grande.webp">
+        <div class="product-name">Pirandai Thokku</div>
+
+        <select>
+        <option>300 gm</option>
+        <option>500 gm</option>
+        </select>
+
+        <div class="price">₹155</div>
+
+        <button class="add-btn">+</button>
+        <a href="file:///C:/Users/Admin/order.html"><button class="">Order Now</button></a>
+    </div>
+
+
+    <div class="card">
+        <div class="discount">29% Off</div>
+        <img src="c:\Users\Admin\Downloads\Group-78.webp">
+        <div class="product-name">Tomato Paste</div>
+
+        <select>

@@ -1,0 +1,29 @@
+<html lang="en">
+<body>
+<body>
+
+    <h2>Sweets & Chocolates</h2>
+    <div class="container">
+        <div class="card">
+            <div class="discount">29% Off</div>
+            <img src="c:\Users\Admin\Downloads\SWAD_Shahi_Gulab_Jamun.webp" alt="">
+            <div class="product-name"> Gulab jamun tin</div>
+            <select>
+                <option>500gm</option>
+            </select>
+            <div class="price"> ₹150</div>
+            <button class="add-btn">+</button>
+            <a href="file:///C:/Users/Admin/order.html"><button>Order Now</button></a>
+        </div>
+
+        <div class="card">
+            <div class="discount">29% Off</div>
+            <img src="c:\Users\Admin\Downloads\WhatsAppImage2023-11-18at11.09.50_795f7660.webp">
+            <div class="product-name">Peanut cubes</div>
+            <select>
+                <option>100gm</option>
+            </select>
+            <div class="price"> ₹50</div>
+            <button class="add-btn">+</button>
+            <a href="file:///C:/Users/Admin/order.html"><button>Order Now</button></a>
+        </div>

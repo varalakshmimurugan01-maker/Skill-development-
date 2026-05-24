@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="schoolApp">
+<head>
+<title>School Form</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+<style>
+body{
+font-family:Arial;
+background:#f2f2f2;
+}
+.box{
+width:300px;
+margin:50px auto;
+padding:20px;
+background:white;
+border-radius:10px;
+text-align:center;
+}
+input{
+width:90%;
+padding:10px;
+margin:10px;
+}
+button{
+padding:10px 20px;
+background:blue;
+color:white;
+border:none;
+}
+</style>
+</head>
+
+<body ng-controller="myCtrl">
+
+<div class="box">
+<h2>School Joining Form</h2>
+
+<input type="text" ng-model="name" placeholder="Enter Name">
+
+<input type="number" ng-model="age" placeholder="Enter Age">
+
+<input type="text" ng-model="course" placeholder="Enter Class">
+
+<button ng-click="show=true">Submit</button>
+
+<div ng-show="show">
+<h3>Student Details</h3>
+
+<p>Name : {{name}}</p>
+
+<p>Age : {{age}}</p>
+
+<p>Class : {{course}}</p>
+
+<p style="color:green;">Admission Successful</p>
+</div>
+</div>
+
+<script>
+var app=angular.module("schoolApp",[]);
+
+app.controller("myCtrl",function($scope){
+$scope.show=false;
+});
+</script>
+
+</body>
+</html>

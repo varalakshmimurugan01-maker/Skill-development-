@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container mt-3">
+  <h2>Custom Range</h2>
+  <p>To create a custom range menu, add the .form-range class to the input element with type="range":</p>
+  <form action="/action_page.php">
+    <label for="customRange" class="form-label">Custom range</label>
+    <input type="range" class="form-range" id="customRange" name="points">
+    
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+  </form>
+  </div>
+
+    <div class="container mt-3">
+  <h2>Input Group</h2>
+  <p>The .input-group class is a container to enhance an input by adding an icon, text or a button in front or behind the input field as a "help text".</p>
+  <p>Use the .input-group-text class to style the specified help text.</p>
+  
+  <form action="/action_page.php">
+    <div class="input-group mb-3">
+      <span class="input-group-text">@</span>
+      <input type="text" class="form-control" placeholder="Username" name="usrname">
+    </div>
+
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Your Email" name="email">
+      <span class="input-group-text">@example.com</span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+<div class="container mt-3">
+  <h2>Multiple Inputs and Helpers</h2>
+  <p>Add multiple inputs or addons:</p>
+  
+  <!-- Multiple inputs -->
+  <div class="input-group mb-3">
+    <span class="input-group-text">Person</span>
+    <input type="text" class="form-control" placeholder="First Name">
+    <input type="text" class="form-control" placeholder="Last Name">
+  </div>
+
+  <!-- Multiple addons / help text -->
+  <div class="input-group mb-3">
+    <span class="input-group-text">One</span>
+    <span class="input-group-text">Two</span>
+    <span class="input-group-text">Three</span>
+    <input type="text" class="form-control">
+  </div>
+</div>
+
+<div class="container mt-3">
+  <h2>Floating Labels - Inputs</h2>
+  <p>Click inside the input field to see the floating label effect:</p>
+  <form action="/action_page.php">
+    <div class="form-floating mb-3 mt-3">
+      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+      <label for="email">Email</label>
+    </div>
+    <div class="form-floating mt-3 mb-3">
+      <input type="text" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      <label for="pwd">Password</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+<div class="container mt-3">
+  <h3>Form Validation</h3>
+  <p>Try to submit the form.</p>
+    
+  <form action="/action_page.php" class="was-validated">
+    <div class="mb-3 mt-3">
+      <label for="uname" class="form-label">Username:</label>
+      <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="mb-3">
+      <label for="pwd" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-check mb-3">
+      <input class="form-check-input" type="checkbox" id="myCheck"  name="remember" required>
+      <label class="form-check-label" for="myCheck">I agree on blabla.</label>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Check this checkbox to continue.</div>
+    </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</html>
